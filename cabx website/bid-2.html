@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cabx</title>
+  <!-- Bootstrap file -->
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <!-- Css link -->
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- Font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Font family -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="icon" type="imge/png" href="./imgs/fav.png">
+</head>
+
+<body>
+  <section class="bidding">
+    <div class="container-fluid">
+      <div class="bid-head">
+        <h4>Biddings</h4>
+      </div>
+      <table class="table table-bordered">
+        <tbody>
+          <tr>
+            <td>Company Name:</td>
+            <td>XYZ</td>
+          </tr>
+          <tr>
+            <td>Date & Time:</td>
+            <td>April 24, 2024 09:27 PM</td>
+          </tr>
+          <tr>
+            <td>Pickup:</td>
+            <td>UK & European investments Ltd, fulham road, London SW6 1HN, UK</td>
+          </tr>
+          <tr>
+            <td>Destination:</td>
+            <td>Craven cottage, stevenage RD, fulham, London SW6 6HH</td>
+          </tr>
+          <tr>
+            <td>Price:</td>
+            <td>100 - 125</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <section class="avial-bids">
+    <div class="container-fluid">
+      <div class="avial-head">
+        <h5>2 Bidds</h5>
+      </div>
+      <div class="top-bid">
+        <div class="bid-data">
+          <div class="amount">
+            <strong>Amount:</strong>
+            <span>$12.00 - $18</span>
+          </div>
+          <div class="date">
+            <span>April 24, 2024 at 10:55 PM</span>
+          </div>
+          <div class="icon">
+            <a href=""><i class="fa-solid fa-circle-info"></i></a>
+          </div>
+        </div>
+        <hr>
+        <div class="bid-accpet">
+          <div class="head-bid">
+            <h4>Topsides</h4>
+            <span>I am interested</span>
+          </div>
+          <div class="acp-btn">
+            <div class="accpt">
+              <a href="" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Accept</a>
+            </div>
+            <div class="disline">
+              <a href="">Decline</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="top-bid">
+        <div class="bid-data">
+          <div class="amount">
+            <strong>Amount:</strong>
+            <span>$12.00 - $18</span>
+          </div>
+          <div class="date">
+            <span>April 24, 2024 at 10:55 PM</span>
+          </div>
+          <div class="icon">
+            <a href=""><i class="fa-solid fa-circle-info"></i></a>
+          </div>
+        </div>
+        <hr>
+        <div class="bid-accpet">
+          <div class="head-bid">
+            <h4>Topsides</h4>
+            <span>I am interested</span>
+          </div>
+          <div class="acp-btn">
+            <div class="accpt">
+              <a href="" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Accept</a>
+            </div>
+            <div class="disline">
+              <a href="">Decline</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="accept-modal">
+    <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+      tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Top Bid</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-data">
+              <div class="img">
+                <img src="./imgs/user.avif" alt="">
+              </div>
+              <div class="text">
+                <h5>Top bids place</h5>
+                <span>Driver</span>
+                <strong>0</strong>
+              </div>
+            </div>
+            <div class="modal-inputs">
+              <div class="modal-input">
+                <label for="">Phone:</label>
+                <input type="text" class="form-control" placeholder="(+33)7 35 5 46 14">
+              </div>
+              <div class="modal-input">
+                <label for="">Website:</label>
+                <input type="text" class="form-control" placeholder="www.google.com">
+              </div>
+              <div class="modal-input">
+                <label for="">Email:</label>
+                <input type="text" class="form-control" placeholder="igerrin@gmail.com">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="bidding"></section>
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cabx</title>
+  <!-- Bootstrap file -->
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <!-- Css link -->
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- Font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Font family -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="icon" type="imge/png" href="./imgs/fav.png">
+</head>
+
+<body>
+  <section class="win-bidding">
+    <div class="container-fluid">
+      <div class="bid-head">
+        <span>Biddings</span>
+        <h3>Nettech ltd</h3>
+      </div>
+      <div class="bid-body">
+        <div class="info-box">
+          <div class="info-head">
+            <span>Job Information</span>
+          </div>
+          <div class="info-name">
+            <span>A bid for driver</span>
+          </div>
+        </div>
+        <div class="info-box">
+          <div class="info-head">
+            <span>Job Number</span>
+          </div>
+          <div class="info-name">
+            <span>123</span>
+          </div>
+        </div>
+        <div class="info-box">
+          <div class="info-head">
+            <span>Date & Time</span>
+          </div>
+          <div class="info-name">
+            <span>April 24, 2024 09:27 PM</span>
+          </div>
+        </div>
+        <div class="info-box">
+          <div class="info-head">
+            <span>Pickup</span>
+          </div>
+          <div class="info-name">
+            <span>UK & European investments Ltd, fulham road, London SW6 1HN, UK</span>
+          </div>
+        </div>
+        <div class="info-box">
+          <div class="info-head">
+            <span>Drop up</span>
+          </div>
+          <div class="info-name">
+            <span>Craven cottage, stevenage RD, fulham, London SW6 6HH</span>
+          </div>
+        </div>
+        <div class="info-box">
+          <div class="info-head">
+            <span>Price</span>
+          </div>
+          <div class="info-name">
+            <span>$100 - 125</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="bid-table">
+    <div class="container-fluid">
+      <div class="bid-table-head">
+        <h3>1 Bid</h3>
+      </div>
+      <div class="table-responsive">
+        <table class="table table-bordered" id="buttonTable">
+          <thead>
+            <tr>
+              <th scope="col">
+                <span> Bidd Number</span>
+              </th>
+              <th scope="col">
+                <span>Own by</span>
+              </th>
+              <th scope="col">
+                <span>Date & Time</span>
+              </th>
+              <th scope="col">
+                <span>Amount</span>
+              </th>
+              <th scope="col">
+                <span>Accept</span>
+              </th>
+              <th scope="col">
+                <span>Reject</span>
+              </th>
+              <th scope="col">
+                <span>View Info</span>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>12</td>
+              <td>Nettech</td>
+              <td>April 24, 2024 09:27 PM</td>
+              <td>$100 - 125</td>
+              <td>
+                <div class="accept-btn bi-btn">
+                  <button type="button" class="colorButton" data-bs-target="#exampleModalToggle"
+                    data-bs-toggle="modal">Accept</button>
+                </div>
+              </td>
+              <td>
+                <div class="rej-btn bi-btn">
+                  <button type="button">Reject</button>
+                </div>
+              </td>
+              <td>
+                <div class="view-btn bi-btn">
+                  <button type="button">View Info</button>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>12</td>
+              <td>Nettech</td>
+              <td>April 24, 2024 09:27 PM</td>
+              <td>$100 - 125</td>
+              <td>
+                <div class="accept-btn bi-btn">
+                  <button type="button" class="colorButton" data-bs-target="#exampleModalToggle"
+                    data-bs-toggle="modal">Accept</button>
+                </div>
+              </td>
+              <td>
+                <div class="rej-btn bi-btn">
+                  <button type="button">Reject</button>
+                </div>
+              </td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+  <div class="accept-modal">
+    <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+      tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Top Bid</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-data">
+              <div class="img">
+                <img src="./imgs/user.avif" alt="">
+              </div>
+              <div class="text">
+                <h5>Top bids place</h5>
+                <span>Driver</span>
+                <strong>0</strong>
+              </div>
+            </div>
+            <div class="modal-inputs">
+              <div class="modal-input">
+                <label for="">Phone:</label>
+                <input type="text" class="form-control" placeholder="(+33)7 35 5 46 14">
+              </div>
+              <div class="modal-input">
+                <label for="">Website:</label>
+                <input type="text" class="form-control" placeholder="www.google.com">
+              </div>
+              <div class="modal-input">
+                <label for="">Email:</label>
+                <input type="text" class="form-control" placeholder="igerrin@gmail.com">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="./js/main.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      document.getElementById('buttonTable').addEventListener('click', function (event) {
+        if (event.target.classList.contains('colorButton')) {
+          if (event.target.classList.toggle('clicked')) {
+            event.target.textContent = 'Accepted';
+          } else {
+            event.target.textContent = 'Accept';
+          }
+        }
+      });
+    });
+  </script>
+</body>
+
+</html>
